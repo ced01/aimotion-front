@@ -1,0 +1,40 @@
+.box {
+    background-color: white;
+    color: black;
+    min-width: 20%;
+    max-width: 47%;
+    padding: 2% 2% 2% 2%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    opacity: 0.9;
+    border: black 1px solid;
+    border-radius: 5px;
+} 
+  
+.show {
+    opacity:1;
+    transition: 2s;
+}
+
+.hide {
+    opacity:0;
+    transition: 2s;
+}
+
+.title {
+    margin-left: 10%;
+}
+
+.content {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.iamsg {
+    font-style: italic;
+}
+
+.response {
+    margin-top: 14px;
+}
